@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'app.vercel.app'
+    namespace 'app.vercel.planorasmartschlkt0ks74'
     compileSdk 34
 
     defaultConfig {
-        applicationId "app.vercel.app"
+        applicationId "app.vercel.planorasmartschlkt0ks74"
         minSdk 24
         targetSdk 34
         versionCode 1
