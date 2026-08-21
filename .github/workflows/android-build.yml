@@ -28,14 +28,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.4'
-
-      - name: Generate Consistent Debug Keystore
-        run: |
-          mkdir -p ~/.android
-          if [ ! -f ~/.android/debug.keystore ]; then
-            keytool -genkey -v -keystore ~/.android/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
-          fi
+          gradle-version: '8.2'
 
       - name: Compile & Assemble Android Debug APK
         run: |
@@ -54,6 +47,6 @@ jobs:
           echo "============================================"
           echo "✅ Android APK successfully compiled!"
           echo "App Name: Planora - Smart Schedule"
-          echo "Package ID: app.vercel.planorasmartschlkt0ks74"
+          echo "Package ID: app.vercel.planorasmartsch4q38"
           echo "Target Version: 1.0.0 (1)"
           echo "============================================"

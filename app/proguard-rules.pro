@@ -3,4 +3,4 @@
 -keepclassmembers class * {
     @android.webkit.JavascriptInterface <methods>;
 }
--keep class app.vercel.planorasmartschlkt0ks74.** { *; }
+-keep class app.vercel.planorasmartsch4q38.** { *; }
